@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+.hero {
+  height: 50vh;
+  background: linear-gradient(to bottom right, #000, #222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.contenido-hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.contenido-hero p {
+  font-size: 18px;
+  color: #aaa;
+}
+
+.producto {
+  padding: 60px 40px;
+  background-color: #111;
+  text-align: center;
+}
+
+.producto-info h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.producto-info p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.precio {
+  margin: 20px 0;
+  font-size: 24px;
+  color: #0f0;
+}
+
+.boton-pago {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0070ba;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.boton-pago:hover {
+  background-color: #005c9d;
+}
+
+.confirmacion {
+  padding: 40px;
+  background-color: #080808;
+  text-align: center;
+  color: #aaa;
+}
+
+.confirmacion a {
+  color: #00aaff;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+}
